@@ -257,6 +257,7 @@ profile-photo .img{
   max-width: 50%;
   margin-top: 30px;
 } 
+
 .education-content  h3.title{
   font-size:24px;
   margin-bottom: 30px;
@@ -378,6 +379,26 @@ profile-photo .img{
 }
 .project:hover{
   border-color: #fed700;
+}
+
+.projects2{
+  display: flex;
+  justify-content: center; /* horizontally center the projects */
+  align-items: center; /* vertically center the projects */
+  flex-wrap: wrap;
+}
+
+.rotate-icon {
+  display: inline-block;
+}
+
+.rotate-icon i {
+  color: yellow;
+  transition: transform 0.5s ease; /* Add a transition for smooth rotation */
+}
+
+.rotate-icon:hover i {
+  transform: rotate(360deg); /* Rotate the icon when hovered over */
 }
 
 
