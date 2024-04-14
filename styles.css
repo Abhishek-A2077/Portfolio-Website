@@ -164,7 +164,9 @@ profile-photo .img{
   transform: rotate(360deg);
 }
 
-
+:root {
+  color-scheme: dark;
+}
 
  /*---------------------------About---------------------------*/
 
